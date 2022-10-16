@@ -31,6 +31,9 @@ Supported devices are motors, ultrasonic sensor, line follower sensors, LEDs on 
 With this script you can also simulate other (or your own) V-REP models. For that, you have to load your model in V-REP (or select one from the ``Model browser`` on the left), move the dummy object called ``mBotScript`` located inside of mBot model to the hierarchy of your loaded model using drag and drop. Then open the ``Script parameters`` dialog (descirbed above), select the joint name parameters one by one and set their values to the names of your model's joint objects. Joint name parameters are ``Left motor joint name`` and ``Right motor joint name``. Do the same for all name parameters like ``Ultrasonic sensor name``, ``Left line follower sensor name``, ``Right line follower sensor name`` etc. For the sensors or joints that you will not use you have to delete their value (set to blank) or the script will throw an error and stop. If you choose the model which already contains the script that controls your model's joints, you have to remove or disable that script. You can disable a script in V-REP in the ``Scripts`` dialog. Go to the menu ``Tools->Scripts`` and in the dialog select the script you want to disable than click on ``Disabled``.
 
 https://www.youtube.com/watch?v=lJyICBp7hTU&t=1s
+
 https://www.youtube.com/watch?v=NTMBereqpVc
+
 https://www.youtube.com/watch?v=vfwxKjOr-7o&t=70s
+
 https://www.youtube.com/watch?v=fCEEMkzsNnk&t=4s
